@@ -1,0 +1,230 @@
+/* Estilos gerais */
+
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Maven+Pro:wght@400;500;600&family=Nunito+Sans:wght@200;400&display=swap');
+
+body {
+    background-color: #080029;
+}
+
+
+.logo { /* logo em texto */
+    font-size: 11vh;
+    letter-spacing: 4px;
+    color: #EE53C4;
+    font-family: 'Jomhuria';
+  }
+
+  #logo-img-nav {
+    width: 42px;
+  }
+
+  .ph-copy {
+    position: absolute;
+    bottom: 16%;
+    right: 28%;
+    cursor: pointer;
+  }
+
+a { /* Personalização da navbar, texto dos links  */
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+    font-family: 'Jomhuria';
+    font-size: 3.5vh; /* vh pra não ficar modificando  */
+  }
+
+  .header{
+    padding-top: 32px;
+    background-color: #0E062F;
+    position: fixed;
+    width: 100%;
+  }
+
+  a:hover {
+    border-radius: 30px;
+    padding: 7px;
+    color: #fb0075;
+  }
+  
+  /* gradiente */
+  
+  @keyframes mygradient {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  nav {
+     display: flex;
+    align-items: center;
+    height: 8vh;
+    align-content: center;
+    justify-content: space-evenly;
+    
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {  /* links */
+    letter-spacing: 2px;
+    margin-left: 50px;
+    transition: background-color 0.3s ease;
+
+  }
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile-menu div { /* indica o design hamburguer do menu mobile */
+    width: 21px;
+    height: 2px;
+    background: #ffffff;
+    margin: 8px;
+    transition: 0.2s;
+  }
+
+  .content-1 {
+    background-image: linear-gradient(-45deg, #f8ff6a 4%, #ff83cd 50%);
+    animation: mygradient 3s ease infinite;
+    background-size: 400% 400%;
+    height: auto; 
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+
+.content-1 h1 {
+    margin-top: 2em;
+    color: white;
+    font-family: 'Jomhuria';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11vh;
+}
+
+.content-1 p {
+    font-size: 16px;
+    font-family: 'Nunito';
+}
+
+
+
+.link-regras {
+    text-decoration: underline;
+    font-size: 15px;
+    font-family: 'Nunito';
+    padding: 20px;
+}
+.link-regras:hover{
+    color: #0E062F;
+}
+
+.content-main {
+  text-align: center;
+}
+
+
+.content-2 {
+    background:#fff url(bg-fairy.jpg) no-repeat center;
+    height: 79vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content-2 {
+    padding-top: 4%;
+}
+
+.content-2 p {
+    text-align: center;
+    margin-top: 20px;
+    padding: 28px;
+    color: #080029;
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 44%;
+    margin-left: 30%;
+    border: 1px solid black;
+}
+
+.content-2 button {
+    margin-left: 2%;
+    width: 17%;
+    height: 2em;
+    font-size: 27px;
+    font-family: 'Jomhuria';
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 30px;
+    border: none;
+    background-image: linear-gradient(-60deg, #f8ff6a 4%, #ff83cd 50%);    
+}
+
+
+.content-2 button:hover:first-child {
+    background-image: linear-gradient(-60deg, #f2ff00 4%, #f29500 50%);
+    animation: mygradient 3s ease infinite;
+    background-size: 400% 400%;
+}
+
+.content-2 button:hover:nth-child(4) {
+    background-image: linear-gradient(-45deg, #ff83cd 4%, #f8ff6a 50%);
+    animation: mygradient 2s ease infinite;
+    background-size: 400% 400%; 
+}
+
+.content-2 button:hover:nth-child(5) {
+    background-image: linear-gradient(-60deg, #3b3b3b 4%, #7d7d7d 50%);
+    animation: mygradient 2s ease infinite;
+    background-size: 400% 400%;
+}
+
+*::selection {
+  background: #ff18dc;
+  color: white;
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 21px;
+  color: white;
+}
+
+footer p {
+  font-family: 'Jomhuria';
+  font-size: 4vh;
+
+}
+
+button{
+  cursor: grabbing; 
+
+}
+
+
+.ph-copy {
+  position: absolute;
+  bottom: 80px;
+}

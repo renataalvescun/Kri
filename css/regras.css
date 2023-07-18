@@ -1,0 +1,10 @@
+.lista-regras  {
+    padding: 30px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.lista-regras p a {
+    font-size: 30px;
+}
