@@ -1,6 +1,6 @@
 <h1 align="center" id="project_name">
   <br />
-  <img src="https://github.com/renataalvescun/Kri/assets/100436812/e647b362-533d-47ca-b959-56ac33482d88" alt="Logo do site" width="54px">
+  <img src="https://github.com/renataalvescun/Kri/assets/100436812/2c087927-745f-4a10-8a06-b9eb53053150" alt="Logo do site" width="54px">
   <br />
   Kri - Sorteio de roteiro criativos
   <br />
