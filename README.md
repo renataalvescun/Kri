@@ -3,7 +3,7 @@
 <h1 align="center" id="project_name">
   <br />
   <!-- Link externo ou local(.github). -->
-  <img src="https://github.com/renataalvescun/Kri/assets/100436812/e647b362-533d-47ca-b959-56ac33482d88" alt="Logo" width="54px">
+  <img src="https://github.com/renataalvescun/Kri/assets/100436812/e647b362-533d-47ca-b959-56ac33482d88" alt="Logo do site" width="54px">
   <br />
   Kri - Sorteio de roteiro criativos
   <br />
