@@ -15,9 +15,7 @@
 <h2 id="about">
 💻 Sobre o projeto
 </h2>
-No site, mantivemos uma ideia de que teria que ser simples para o usuário conseguir acessar com rapidez e ao mesmo tempo ter uma identidade. Na página de sorteio, principalmente, trabalhamos para que o sorteio pudesse ser feito apenas 2x, pois o objetivo do projeto é exercer a criatividade com roteiros aleatórios, ou seja, você deve escrever independente de não gostar do que foi sorteado. Também pode copiar o roteiro diretamente do site, para facilitar a vida do escritor BR. 
-<p> Em breve desejo adicionar um sistema de cadastro para o site, podendo assim guardar os roteiros sorteados no perfil do usuário. Dando a oportunidade dele adicionar a história diretamente no site [...] mas ainda é algo a se desenvolver e incrementar. </p>
-
+É uma página de sorteio simples, mas que busca auxiliar escritores exercerem a criatividade com roteiros aleatórios, ou seja, você "deve" escrever independente de não gostar do que foi sorteado. 
 <div align="center" > 
   <br> 
 Feito com 💕 por Renata Alves
