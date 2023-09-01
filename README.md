@@ -31,5 +31,5 @@
 <hr>
 <p align="center"> 🌟 Alguma dúvida ou relacionado? Entre em contato! 🌟</p>
 <div align="center" > 
-Feito com ⭐ por Renata Alves
+Feito com ⭐ por Renata & Raquel
 </div>
